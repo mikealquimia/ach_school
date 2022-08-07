@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="management_school" model="res.groups">
+            <field name="name">Administrator</field>
+        </record>
+
+        <record id="headmistress_school" model="res.groups">
+            <field name="name">Headmistress</field>
+        </record>
+        
+        <record id="teacher_school" model="res.groups">
+            <field name="name">Teacher</field>
+        </record>
+
+        <record id="student_school" model="res.groups">
+            <field name="name">Student</field>
+        </record>
+
+    </data>
+</odoo>

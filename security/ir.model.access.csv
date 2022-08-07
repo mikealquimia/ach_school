@@ -1,0 +1,56 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+#School Permitios
+access_school_school_management,school.school.manager,model_school_school,ach_school.management_school,1,1,1,1
+access_school_school_headmistress,school.school.headmistress,model_school_school,ach_school.headmistress_school,1,1,0,0
+access_school_school_teacher,school.school.teacher,model_school_school,ach_school.teacher_school,1,0,0,0
+access_school_school_student,school.school.student,model_school_school,ach_school.student_school,1,0,0,0
+
+#Teacher Type Permitios
+access_school_teacher_type_management,school.teacher.type.manager,model_school_teacher_type,ach_school.management_school,1,1,1,1
+access_school_teacher_type_headmistress,school.teacher.type.headmistress,model_school_teacher_type,ach_school.headmistress_school,1,1,0,0
+access_school_teacher_type_teacher,school.teacher.type.teacher,model_school_teacher_type,ach_school.teacher_school,1,0,0,0
+access_school_teacher_type_student,school.teacher.type.student,model_school_teacher_type,ach_school.student_school,1,0,0,0
+
+#Teacher Permitios
+access_school_teacher_management,school.teacher.manager,model_school_teacher,ach_school.management_school,1,1,1,1
+access_school_teacher_headmistress,school.teacher.headmistress,model_school_teacher,ach_school.headmistress_school,1,1,0,0
+access_school_teacher_teacher,school.teacher.teacher,model_school_teacher,ach_school.teacher_school,1,0,0,0
+
+#Category Grade Permitions
+access_school_category_management,school.category.manager,model_school_category,ach_school.management_school,1,1,1,1
+access_school_category_headmistress,school.category.headmistress,model_school_category,ach_school.headmistress_school,1,1,0,0
+access_school_category_teacher,school.category.teacher,model_school_category,ach_school.teacher_school,1,0,0,0
+access_school_category_student,school.category.student,model_school_category,ach_school.student_school,1,0,0,0
+
+#Grade Permitios
+access_category_grade_management,category.grade.manager,model_category_grade,ach_school.management_school,1,1,1,1
+access_category_grade_headmistress,category.grade.headmistress,model_category_grade,ach_school.headmistress_school,1,1,0,0
+access_category_grade_teacher,category.grade.teacher,model_category_grade,ach_school.teacher_school,1,0,0,0
+access_category_grade_teacher,category.grade.student,model_category_grade,ach_school.student_school,1,0,0,0
+
+#Student Permitios
+access_grade_student_management,grade.student.manager,model_grade_student,ach_school.management_school,1,1,1,1
+access_grade_student_headmistress,grade.student.headmistress,model_grade_student,ach_school.headmistress_school,1,1,0,0
+access_grade_student_teacher,grade.student.teacher,model_grade_student,ach_school.teacher_school,1,0,0,0
+access_grade_student_student,grade.student.student,model_grade_student,ach_school.student_school,1,0,0,0
+
+#Course Permitios
+access_grade_couse_management,grade.course.manager,model_grade_course,ach_school.management_school,1,1,1,1
+access_grade_couse_headmistress,grade.course.headmistress,model_grade_course,ach_school.headmistress_school,1,1,0,0
+access_grade_couse_teacher,grade.course.teacher,model_grade_course,ach_school.teacher_school,1,0,0,0
+access_grade_couse_student,grade.course.student,model_grade_course,ach_school.student_school,1,0,0,0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
